@@ -7,7 +7,7 @@
 	<style>
 		* { margin: 0; padding: 0; }
 		body { font-family: Arial; }
-		nav { height: auto; width: 100%; background-color: #f1f1f1; padding: 2em; }
+		nav { height: auto; width: 100%; background-color: #f1f1f1; padding: 2em; border-bottom: 1px solid #ccc; }
 		nav ul li { display: inline-block; vertical-align: bottom; margin: 0 1em; }
 		main { display: table; width: 100%; height: 10vh; }
 		.page { width:100%; height: 100vh; text-align: center; }
@@ -17,7 +17,6 @@
 	</style>
 </head>
 <body>
-
 	<nav>
 		<ul>
 			<li><a href="/#/">Home</a></li>
@@ -26,7 +25,6 @@
 			<li><a href="/#/section-3">Section III</a></li>
 		</ul>
 	</nav>
-
 	<main>
 		<section id="home" class="page">
 			<div class="content">
@@ -49,11 +47,10 @@
 			</div>
 		</section>
 	</main>
-
+	<!-- JS -->
 	<script src="bower_components/js-signals/dist/signals.min.js"></script>
 	<script src="bower_components/crossroads.js/dist/crossroads.min.js"></script>
 	<script src="bower_components/hasher/dist/js/hasher.min.js"></script>
 	<script src="app.js"></script>
-
 </body>
 </html>
