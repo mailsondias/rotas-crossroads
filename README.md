@@ -1,3 +1,3 @@
 # rotas-crossroads
 
-Simple routs for SPA 
+# Simple routes to SPA 
